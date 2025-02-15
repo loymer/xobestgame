@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: url("gettyimages-1406147022-640x640.jpg")
+          no-repeat center center/cover;
+        color: white;
+        overflow: hidden;
+      } /* Prevent scrolling */
+    </style>
+  </head>
+  <body>
+    <header>
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#home">
+              <img
+                src="WhatsApp Image 2025-01-12 at 20.23.55_ec28a34d.jpg"
+                alt="Site Logo"
+                class="site-logo"
+              />
+            </a>
+          </div>
+          <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#about Porject">About Porject</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+    <h2>Tic-Tac-Toe (XO)</h2>
+    <div>
+      <div class="game-container" id="gameBoard"></div>
+      <div class="winner" id="winnerMessage"></div>
+      <button class="restart" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <script src="genarl.js"></script>
+  </body>
+</html>
